@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #0000ff, #ff00ff, #ff9900f3);
+}
+
+h3 {
+color: #fff;
+display: flex;
+line-height: 300px;
+}
+
+input {
+    
+    border-radius: 15px;
+    border: black 10px double;
+    background-clip: content-box;
+}
+
+img { 
+    border-radius: 20px;
+    margin: 200px;
+}
